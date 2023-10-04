@@ -1,0 +1,376 @@
+
+
+body {
+  background-color: black;
+}
+
+#navUl {
+  display: block;
+  text-align: center;
+  align-items: center;
+  margin-left: 200px;
+}
+
+nav ul a {
+  padding-left: 30px;
+  text-decoration: none;
+  color: white;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 30px;
+}
+
+ nav ul a:hover {
+   background: linear-gradient(90.2deg, rgba(190, 70, 102, 0.93) -15.6%, rgb(252, 154, 154) -15.6%, rgba(190, 70, 102, 0.92) 17.9%, rgb(58, 13, 48) 81.6%);
+}
+
+
+
+#navleft {
+  display: block;
+  text-align: left;
+}
+
+.navbars {
+  display:flex;
+  flex-direction: row;
+}
+#navRight {
+  position: absolute;
+  margin-left: 1150px;
+  border-radius: 20px;
+  width: 110px;
+  height: 50px;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  margin-top: 10px;
+  background: linear-gradient(90.2deg, rgba(190, 70, 102, 0.93) -15.6%, rgb(252, 154, 154) -15.6%, rgba(190, 70, 102, 0.92) 17.9%, rgb(58, 13, 48) 81.6%);
+}
+i {
+  color: white;
+}
+
+#bio {
+  color: white;
+  margin-left: 100px;
+  margin-top: 100px;
+  font-size: 60px;
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+#spe {
+color: #c3195d;
+font-family: 'Bebas Neue', sans-serif;
+letter-spacing: 3px;
+font-size: 60px;
+}
+
+#spe2 {
+  font-family: 'Raleway', serif;
+  font-size: 20px;
+  width: 450px;
+}
+
+#pic {
+  position: absolute;
+  margin-left: 750px;
+  top: 10px;
+
+}
+
+aside img {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.logos img {
+  background-color: none;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.logos {
+  margin-top: 20px;
+}
+
+.logos a {
+  background-color: none;
+  background: none;
+  color: black;
+}
+
+.logos a:hover {
+  opacity: 0.5;
+}
+
+#conB {
+  width: 150px;
+  height: 50px;
+  box-shadow: 2px 2px grey;
+  opacity: 100%;
+  font-family: 'Raleway', serif;
+  font-size: 20px;
+  background: linear-gradient(90.2deg, rgba(190, 70, 102, 0.93) -15.6%, rgb(252, 154, 154) -15.6%, rgba(190, 70, 102, 0.92) 17.9%, rgb(58, 13, 48) 81.6%);
+  color: white;
+}
+
+
+#conB:hover {
+  opacity: 90%;
+  padding-right: 10px;
+}
+
+#cvB {
+  width: 150px;
+  height: 50px;
+  box-shadow: 2px 2px grey;
+  opacity: 100%;
+  font-family: 'Raleway', serif;
+  font-size: 20px;
+  background: linear-gradient(90.2deg, rgba(190, 70, 102, 0.93) -15.6%, rgb(252, 154, 154) -15.6%, rgba(190, 70, 102, 0.92) 17.9%, rgb(58, 13, 48) 81.6%);
+  color: white;
+}
+
+#cvB:hover {
+  opacity: 90%;
+  padding-right: 10px;
+}
+#ser {
+  color: white;
+  text-align: center;
+  position: absolute;
+  margin-top: 300px;
+  margin-left: 620px;
+  font-family: 'Bebas Neue', serif;
+  font-weight: bold;
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #FFF0F5;
+  margin-left: 100px;
+  color: black;
+  padding: 10px;
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  font-family: 'Raleway', serif;
+}
+.skill span {
+  font-weight: bold;
+}
+.skill img {
+  padding-bottom: 10px;
+}
+
+.skills {
+  position: absolute;
+  margin-top: 400px;
+  display: flex;
+  flex-direction: row;
+}
+
+#movingBar {
+  position: absolute;
+  margin-top: 750px;
+}
+
+#movingBar span {
+  margin-left: 43%;
+  color: white;
+  font-family: 'Bebas Neue', serif;
+  font-weight: bold;
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+
+#movingBar marquee {
+  color: white;
+  font-family: 'Raleway', serif;
+  font-size: 20px;
+  padding-top: 20px;
+}
+#movingBar img {
+  padding-left: 50px;
+}
+#pro {
+  color: white;
+  text-align: center;
+  position: absolute;
+  margin-top: 1000px;
+  margin-left: 630px;
+  font-family: 'Bebas Neue', serif;
+  font-weight: bold;
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+
+
+.projects {
+  position: absolute;
+  padding: 20px;
+  margin-top: 1100px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 80px;
+}
+
+.project {
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
+  font-family: 'Raleway', serif;
+  font-size: 20px;
+}
+
+div.scroll-container {
+  background-color: #FFF0F5;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+.foot {
+  position: absolute;
+  margin-top: 1500px;
+  margin-left: 200px;
+  display: flex;
+  flex-direction: row;
+  padding-top: 100px;
+}
+.cont {
+  display: flex;
+  flex-direction: column;
+  margin-top: 17px;
+}
+.cont img {
+  padding-right: 10px;
+}
+.cont a:hover {
+  background: linear-gradient(90.2deg, rgba(190, 70, 102, 0.93) -15.6%, rgb(252, 154, 154) -15.6%, rgba(190, 70, 102, 0.92) 17.9%, rgb(58, 13, 48) 81.6%);
+
+}
+#al {
+  margin-top: 1px;
+  color: white;
+  font-family: 'Raleway', serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.ph {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+.em {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+}
+
+#pag {
+  position: absolute;
+  margin-left: 450px;
+  color: white;
+  font-family: 'Raleway', serif;
+  font-size: 15px;
+}
+
+#pag ul {
+position: absolute;
+width: 120px;
+left: -30px;
+}
+
+#pag ul a {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: 'Raleway', serif;
+  font-size: 15px;
+  text-decoration: none;
+  padding-top: 10px;
+}
+#pag ul a:hover {
+  background: linear-gradient(90.2deg, rgba(190, 70, 102, 0.93) -15.6%, rgb(252, 154, 154) -15.6%, rgba(190, 70, 102, 0.92) 17.9%, rgb(58, 13, 48) 81.6%);
+
+}
+#soc {
+  position: absolute;
+  margin-left: 600px;
+  color: white;
+  font-family: 'Raleway', serif;
+  font-size: 15px;
+  width: 150px;
+}
+
+#soc ul {
+position: absolute;
+width: 120px;
+left: -30px;
+}
+
+#soc ul a {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: 'Raleway', serif;
+  font-size: 15px;
+  text-decoration: none;
+  padding-top: 10px;
+}
+
+#soc ul a:hover {
+  background: linear-gradient(90.2deg, rgba(190, 70, 102, 0.93) -15.6%, rgb(252, 154, 154) -15.6%, rgba(190, 70, 102, 0.92) 17.9%, rgb(58, 13, 48) 81.6%);
+
+}
+
+
+#vis {
+  position: absolute;
+  margin-left: 800px;
+  color: white;
+  font-family: 'Raleway', serif;
+  font-size: 15px;
+  width: 150px;
+}
+#vis ul {
+position: absolute;
+width: 120px;
+left: -30px;
+}
+
+#vis ul a {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  font-family: 'Raleway', serif;
+  font-size: 15px;
+  text-decoration: none;
+  padding-top: 10px;
+}
+
+#vis ul a:hover {
+  background: linear-gradient(90.2deg, rgba(190, 70, 102, 0.93) -15.6%, rgb(252, 154, 154) -15.6%, rgba(190, 70, 102, 0.92) 17.9%, rgb(58, 13, 48) 81.6%);
+
+}
+
+#upHR {
+  position: absolute;
+  display: inline;
+  width: 1000px;
+  height: 1px;
+  background-color: #990066;
+  bottom: 120px;
+}
